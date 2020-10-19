@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+      <title>Nitro Coffee Shop | Home</title>
+  </head>
+  <body>
+      <header>
+          <nav class="main-nav">
+              <a href="index.html"><img src="assets/logobeans.png" alt="Coffee Bean Logo" class="main-nav__logo"></a>
+              <h2 class="main-nav__heading">nitro</h2>
+            <!--Main Navigation Bar-->
+            <ul class="main-nav__menu">
+                <li><a href="index.html" class="main-nav__menu-link">ABOUT</a></li>
+                <li><a href="pages/menu.html" class="main-nav__menu-link">MENU</a></li>
+                <li><a href="pages/menu.html" class="main-nav__menu-link main-nav__menu-link--emphasis">SHOP NOW</a></li>
+            </ul>
+          </nav>
+          <!--Hero Image & Title-->
+          <div class="hero">
+              <div class="hero__content">
+                <h1 class="hero__heading">Nitro Coffee</h1>
+                <p class="hero__description">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p> 
+                <div class="button__container">
+                  <button id="button-shopnow"> <a href="pages/menu.html">SHOP NOW</a></button>
+                  <div class="button-offset"></div>
+                </div>
+              </div>
+              <div class="hero__image">
+                <img src="assets/coffeebeans-hero.png" alt="Big Coffee Bean Bag" class="hero__image-big">
+              </div>
+          </div>
+      </header>
+      <main>
+        <!--Products-->
+        <section class="products">
+          <h2 class="products__heading">Our Products</h2>
+          <div class="products__card-container">
+            <div class="products__card">
+              <img src="assets/coffeebeans.png" alt="Small Coffee Bean Bag" class="products__image">
+              <div class="products__card-bottom">
+                <h3 class="products__item">Coffee Beans</h3> 
+                <p class="products__quantity">Pack of 3</p>
+                <p class="products__price">$19</p>
+              </div>
+            </div>
+            <div class="products__card">
+              <img src="assets/coldbrew.png" alt="Can of Cold Brew" class="products__image">
+              <div class="products__card-bottom">
+                <h3 class="products__item">Cold Brew</h3> 
+                <p class="products__quantity">1 Can</p>
+                <p class="products__price">$5</p>
+              </div>   
+            </div>
+            <div class="products__card">
+              <img src="assets/inhousebrew.png" alt="Takeout Coffee Cup" class="products__image">
+              <div class="products__card-bottom">
+                <h3 class="products__item">In-house Brew</h3>
+                <p class="products__quantity">1 Cup</p>
+                <p class="products__price">$3</p>   
+              </div>
+            </div>
+          </div>
+            <div class="button__container button__container-viewall">
+              <button id="button-view-all"><a href="pages/menu.html">VIEW ALL</a></button>
+              <div class="button-offset"></div>
+            </div>
+        </section>
+        <section class="sub-section">
+            <div class="sub-section__content">
+                <h2 class="sub-section__heading">We're Different</h2>
+                <p class="sub-section__description">We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.</p>
+                <div class="sub-section__logo-container">
+                    <img src="Assets/planting-icon.png" alt="Coffee Plant" class="sub-section__logo">
+                    <img src="Assets/2-coffee-beans-icon.png" alt="Coffee Beans" class="sub-section__logo">
+                    <img src="Assets/coffee-cup-icon.png" alt="Cup of Coffee" class="sub-section__logo">
+                </div>
+                <div class="button__container">
+                  <button id="button-learnmore"><a href="pages/menu.html">LEARN MORE</a></button>
+                  <div class="button-offset"></div>
+                </div>
+            </div>
+            <div class="sub-section__image">
+                <img src="Assets/tiltedcan.png" alt="Tilted Can of Cold Brew" class="products__image products__image-tiltedcan">
+                <img src="Assets/coldbrewbackground.png" alt="Patterned Background" class="products__image-tiltedcan-background">
+                <div class="products__image-tiltedcan-offset"></div>
+              </div>
+        </section>
+        <section class="discount">
+            <div>
+                <p class="discount__deal">Get 20% off your first order with code: <span id="discount-code">FirstNitro</span></p>
+        </section>
+      </main>
+  <!--Footer/Contact-->
+    <footer class="footer">
+      <div class="footer__content">
+        <img src="Assets/logobeans.png" class="footer__logo footer__logo1" alt="Coffee Bean Logo">
+        <div class="footer__address">
+          <h3 class="footer__heading">Address</h3>
+          <p class="footer__address1">503 Broadway Penthouse</p>
+          <p class="footer__address2">New York</p>
+        </div>
+        <div class="footer_hours">
+          <h3 class="footer__heading">Hours</h3>
+          <p><span class="footer__day">Monday - Friday:</span> 9am - 7pm</p>
+          <p><span class="footer__day">Saturday - Sunday:</span> 10am - 5pm</p>
+        </div>
+        <div class="footer_social">
+          <h3 class="footer__heading">Social</h3>
+          <a href="http://www.facebook.com"><img src="assets/facebook.png" class="footer__social-logo" alt="Facebook Logo"></a>
+          <a href="http://www.yelp.com"><img src="assets/yelp.png" class="footer__social-logo" alt="Yelp Logo"></a>
+          <a href="http://www.instagram.com"><img src="assets/instagram.png" class="footer__social-logo" alt="Instagram Logo"></a>
+        </div>
+        <img src="Assets/logobeans.png" class="footer__logo footer__logo2" alt="Coffee Bean Logo">
+      </div>
+    </footer>
+</body>
+
+</html>
+
